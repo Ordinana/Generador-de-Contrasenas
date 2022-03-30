@@ -2,9 +2,9 @@ import random
 
 print("GENERADOR DE CONTRASEÑAS")
 
-facil = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
-media = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZª!@·$%&/()=?¿"
-dificil = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZª!@·$%&/()=?¿0123456789"
+facil = "abcdefghijklmnñopqrstuvwxyz"
+media = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+dificil = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZª!@·$%&/()=?¿-0123456789"
 
 while True:
     numeros = input("¿Cuántas contraseñas desea generar?: ")
